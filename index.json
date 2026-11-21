@@ -10,8 +10,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/ambiance/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/ambiance/preview.png"
+      "theme": "themes/ambiance/theme.json",
+      "preview": "themes/ambiance/preview.png"
     },
     {
       "id": "chaos",
@@ -22,8 +22,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chaos/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chaos/preview.png"
+      "theme": "themes/chaos/theme.json",
+      "preview": "themes/chaos/preview.png"
     },
     {
       "id": "chrome",
@@ -34,8 +34,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chrome/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chrome/preview.png"
+      "theme": "themes/chrome/theme.json",
+      "preview": "themes/chrome/preview.png"
     },
     {
       "id": "clouds",
@@ -46,8 +46,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds/preview.png"
+      "theme": "themes/clouds/theme.json",
+      "preview": "themes/clouds/preview.png"
     },
     {
       "id": "clouds-midnight",
@@ -58,8 +58,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds-midnight/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds-midnight/preview.png"
+      "theme": "themes/clouds-midnight/theme.json",
+      "preview": "themes/clouds-midnight/preview.png"
     },
     {
       "id": "cobalt",
@@ -70,8 +70,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/cobalt/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/cobalt/preview.png"
+      "theme": "themes/cobalt/theme.json",
+      "preview": "themes/cobalt/preview.png"
     },
     {
       "id": "crimson-editor",
@@ -82,8 +82,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/crimson-editor/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/crimson-editor/preview.png"
+      "theme": "themes/crimson-editor/theme.json",
+      "preview": "themes/crimson-editor/preview.png"
     },
     {
       "id": "dawn",
@@ -94,8 +94,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dawn/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dawn/preview.png"
+      "theme": "themes/dawn/theme.json",
+      "preview": "themes/dawn/preview.png"
     },
     {
       "id": "dracula",
@@ -106,8 +106,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dracula/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dracula/preview.png"
+      "theme": "themes/dracula/theme.json",
+      "preview": "themes/dracula/preview.png"
     },
     {
       "id": "dreamweaver",
@@ -118,8 +118,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dreamweaver/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dreamweaver/preview.png"
+      "theme": "themes/dreamweaver/theme.json",
+      "preview": "themes/dreamweaver/preview.png"
     },
     {
       "id": "eclipse",
@@ -130,8 +130,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/eclipse/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/eclipse/preview.png"
+      "theme": "themes/eclipse/theme.json",
+      "preview": "themes/eclipse/preview.png"
     },
     {
       "id": "github",
@@ -142,8 +142,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/github/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/github/preview.png"
+      "theme": "themes/github/theme.json",
+      "preview": "themes/github/preview.png"
     },
     {
       "id": "gob",
@@ -154,8 +154,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gob/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gob/preview.png"
+      "theme": "themes/gob/theme.json",
+      "preview": "themes/gob/preview.png"
     },
     {
       "id": "gruvbox",
@@ -166,8 +166,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gruvbox/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gruvbox/preview.png"
+      "theme": "themes/gruvbox/theme.json",
+      "preview": "themes/gruvbox/preview.png"
     },
     {
       "id": "idle-fingers",
@@ -178,8 +178,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/idle-fingers/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/idle-fingers/preview.png"
+      "theme": "themes/idle-fingers/theme.json",
+      "preview": "themes/idle-fingers/preview.png"
     },
     {
       "id": "iplastic",
@@ -190,8 +190,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/iplastic/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/iplastic/preview.png"
+      "theme": "themes/iplastic/theme.json",
+      "preview": "themes/iplastic/preview.png"
     },
     {
       "id": "katzenmilch",
@@ -202,8 +202,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/katzenmilch/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/katzenmilch/preview.png"
+      "theme": "themes/katzenmilch/theme.json",
+      "preview": "themes/katzenmilch/preview.png"
     },
     {
       "id": "kr-theme",
@@ -214,8 +214,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kr-theme/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kr-theme/preview.png"
+      "theme": "themes/kr-theme/theme.json",
+      "preview": "themes/kr-theme/preview.png"
     },
     {
       "id": "kuroir",
@@ -226,8 +226,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kuroir/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kuroir/preview.png"
+      "theme": "themes/kuroir/theme.json",
+      "preview": "themes/kuroir/preview.png"
     },
     {
       "id": "merbivore",
@@ -238,8 +238,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/merbivore/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/merbivore/preview.png"
+      "theme": "themes/merbivore/theme.json",
+      "preview": "themes/merbivore/preview.png"
     },
     {
       "id": "mono-industrial",
@@ -250,8 +250,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/mono-industrial/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/mono-industrial/preview.png"
+      "theme": "themes/mono-industrial/theme.json",
+      "preview": "themes/mono-industrial/preview.png"
     },
     {
       "id": "monokai",
@@ -262,8 +262,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/monokai/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/monokai/preview.png"
+      "theme": "themes/monokai/theme.json",
+      "preview": "themes/monokai/preview.png"
     },
     {
       "id": "nord-dark",
@@ -274,8 +274,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/nord-dark/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/nord-dark/preview.png"
+      "theme": "themes/nord-dark/theme.json",
+      "preview": "themes/nord-dark/preview.png"
     },
     {
       "id": "pastel-on-dark",
@@ -286,8 +286,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/pastel-on-dark/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/pastel-on-dark/preview.png"
+      "theme": "themes/pastel-on-dark/theme.json",
+      "preview": "themes/pastel-on-dark/preview.png"
     },
     {
       "id": "solarized-dark",
@@ -298,8 +298,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-dark/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-dark/preview.png"
+      "theme": "themes/solarized-dark/theme.json",
+      "preview": "themes/solarized-dark/preview.png"
     },
     {
       "id": "solarized-light",
@@ -310,8 +310,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-light/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-light/preview.png"
+      "theme": "themes/solarized-light/theme.json",
+      "preview": "themes/solarized-light/preview.png"
     },
     {
       "id": "sqlserver",
@@ -322,8 +322,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/sqlserver/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/sqlserver/preview.png"
+      "theme": "themes/sqlserver/theme.json",
+      "preview": "themes/sqlserver/preview.png"
     },
     {
       "id": "terminal",
@@ -334,8 +334,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/terminal/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/terminal/preview.png"
+      "theme": "themes/terminal/theme.json",
+      "preview": "themes/terminal/preview.png"
     },
     {
       "id": "textmate",
@@ -346,8 +346,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/textmate/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/textmate/preview.png"
+      "theme": "themes/textmate/theme.json",
+      "preview": "themes/textmate/preview.png"
     },
     {
       "id": "tomorrow",
@@ -358,8 +358,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow/preview.png"
+      "theme": "themes/tomorrow/theme.json",
+      "preview": "themes/tomorrow/preview.png"
     },
     {
       "id": "tomorrow-night",
@@ -370,8 +370,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night/preview.png"
+      "theme": "themes/tomorrow-night/theme.json",
+      "preview": "themes/tomorrow-night/preview.png"
     },
     {
       "id": "tomorrow-night-blue",
@@ -382,8 +382,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-blue/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-blue/preview.png"
+      "theme": "themes/tomorrow-night-blue/theme.json",
+      "preview": "themes/tomorrow-night-blue/preview.png"
     },
     {
       "id": "tomorrow-night-bright",
@@ -394,8 +394,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-bright/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-bright/preview.png"
+      "theme": "themes/tomorrow-night-bright/theme.json",
+      "preview": "themes/tomorrow-night-bright/preview.png"
     },
     {
       "id": "tomorrow-night-eighties",
@@ -406,8 +406,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-eighties/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-eighties/preview.png"
+      "theme": "themes/tomorrow-night-eighties/theme.json",
+      "preview": "themes/tomorrow-night-eighties/preview.png"
     },
     {
       "id": "twilight",
@@ -418,8 +418,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/twilight/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/twilight/preview.png"
+      "theme": "themes/twilight/theme.json",
+      "preview": "themes/twilight/preview.png"
     },
     {
       "id": "vibrant-ink",
@@ -430,8 +430,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/vibrant-ink/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/vibrant-ink/preview.png"
+      "theme": "themes/vibrant-ink/theme.json",
+      "preview": "themes/vibrant-ink/preview.png"
     },
     {
       "id": "xcode",
@@ -442,8 +442,8 @@
       "tags": [
         "ace"
       ],
-      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/xcode/theme.json",
-      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/xcode/preview.png"
+      "theme": "themes/xcode/theme.json",
+      "preview": "themes/xcode/preview.png"
     }
   ]
 }

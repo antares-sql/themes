@@ -99,8 +99,9 @@ const index = {
       author: theme.author,
       description: theme.description,
       tags: theme.tags ?? [],
-      theme: `${RAW}/themes/${theme.id}/theme.json`,
-      preview: `${RAW}/themes/${theme.id}/preview.png`
+      // relative to index.json, so a fork or a local copy works too
+      theme: `themes/${theme.id}/theme.json`,
+      preview: `themes/${theme.id}/preview.png`
    }))
 };
 write(path.join(root, 'index.json'), JSON.stringify(index, null, 2) + '\n');
