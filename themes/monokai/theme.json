@@ -1,0 +1,169 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "monokai",
+  "name": "Monokai",
+  "appearance": "dark",
+  "author": "Antares SQL",
+  "description": "Monokai for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+  "license": "BSD-3-Clause",
+  "tags": [
+    "ace"
+  ],
+  "colors": {
+    "bg-app": "#272822",
+    "bg-panel": "#31322c",
+    "bg-panel-hover": "#44453f",
+    "bg-surface": "#272822",
+    "bg-raised": "#3c3d37",
+    "bg-titlebar": "#3c3d37",
+    "bg-settingbar": "#1d1e1a",
+    "settingbar-text": "#ffffff",
+    "bg-tabbar": "#3c3d37",
+    "bg-card": "#383933",
+    "bg-hover": "rgb(248 248 242 / 6%)",
+    "bg-hover-strong": "rgb(248 248 242 / 12%)",
+    "bg-overlay": "rgb(255 255 255 / 12%)",
+    "text": "#f8f8f2",
+    "text-muted": "#b9bab4",
+    "success": "#32b643",
+    "warning": "#e0a40c",
+    "error": "#de3b28",
+    "border": "#555650",
+    "border-subtle": "#3c3d37",
+    "separator": "#51524c",
+    "divider": "rgb(248 248 242 / 12%)",
+    "shadow-color": "#000000",
+    "input-bg": "#34342e",
+    "input-bg-readonly": "#272822",
+    "input-bg-disabled": "#2d2e28",
+    "menu-hover-bg": "#34342e",
+    "menu-hover-text": "accent",
+    "modal-header-bg": "#3c3d37",
+    "modal-header-text": "#f8f8f2",
+    "context-bg": "#31322c",
+    "context-text": "#f8f8f2",
+    "context-hover": "rgb(248 248 242 / 10%)",
+    "context-border": "#51524c",
+    "tooltip-bg": "rgb(48 55 66 / 95%)",
+    "tooltip-text": "#fff",
+    "btn-dark-bg": "#51524c",
+    "btn-dark-bg-hover": "#3c3d37",
+    "btn-gray-bg": "#3c3d37",
+    "btn-gray-bg-hover": "#2f302a",
+    "btn-text": "#ffffff",
+    "code-bg": "#191a16",
+    "code-border": "#51524c",
+    "code-text": "#e6db74",
+    "scrollbar-track": "#383933",
+    "scrollbar-thumb": "rgb(248 248 242 / 35%)",
+    "scrollbar-thumb-hover": "rgb(248 248 242 / 70%)",
+    "grid-header-bg": "#272822",
+    "grid-header-border": "#31322c",
+    "grid-row-bg": "#2f302a",
+    "grid-border": "#272822",
+    "grid-cell-focus": "#9a9a94",
+    "grid-cell-focus-bg": "rgb(0 0 0 / 30%)",
+    "table-border": "#464741",
+    "table-row-alt": "#2d2e28",
+    "table-row-hover": "#383933",
+    "table-row-active": "#31322c",
+    "table-row-selected": "rgb(248 248 242 / 15%)",
+    "diagram-dot": "rgb(248 248 242 / 10%)",
+    "diagram-table-bg": "#31322c",
+    "diagram-table-border": "#666660",
+    "diagram-header-bg": "#44453f",
+    "diagram-row-linked": "rgb(248 248 242 / 4%)",
+    "diagram-row-hover": "rgb(248 248 242 / 8%)",
+    "diagram-relation": "#90908a",
+    "type-string": "#e6db74",
+    "type-number": "#ae81ff",
+    "type-date": "#66d9ef",
+    "type-bit": "#ae81ff",
+    "type-blob": "#66d9ef",
+    "type-array": "#a6e22e",
+    "type-enum": "#f92672",
+    "type-unknown": "#75715e",
+    "size-chart-fill": "#e6db74",
+    "size-chart-track": "#5b5c56"
+  },
+  "editor": {
+    "colors": {
+      "background": "#272822",
+      "foreground": "#F8F8F2",
+      "cursor": "#F8F8F0",
+      "selection": "#49483E",
+      "gutterBackground": "#2F3129",
+      "gutterForeground": "#8F908A",
+      "gutterActiveLine": "#272727",
+      "activeLine": "rgba(4, 0, 24, 0.20)",
+      "matchingBracket": "#49483E",
+      "selectionMatch": "#49483E",
+      "invisible": "#52524d"
+    },
+    "syntax": {
+      "keyword": {
+        "color": "#F92672"
+      },
+      "operator": {
+        "color": "#F92672"
+      },
+      "type": {
+        "color": "#66D9EF",
+        "fontStyle": "italic"
+      },
+      "builtin": {
+        "color": "#66D9EF"
+      },
+      "number": {
+        "color": "#AE81FF"
+      },
+      "atom": {
+        "color": "#AE81FF"
+      },
+      "string": {
+        "color": "#E6DB74"
+      },
+      "regexp": {
+        "color": "#E6DB74"
+      },
+      "comment": {
+        "color": "#75715E"
+      },
+      "variable": {
+        "color": "#A6E22E"
+      },
+      "property": {
+        "color": "#A6E22E"
+      },
+      "tag": {
+        "color": "#F92672"
+      },
+      "attribute": {
+        "color": "#A6E22E"
+      },
+      "attributeValue": {
+        "color": "#E6DB74"
+      },
+      "tagPunctuation": {
+        "color": "#fff"
+      },
+      "emphasis": {
+        "color": "#E6DB74"
+      },
+      "strong": {
+        "color": "#E6DB74"
+      },
+      "quote": {
+        "color": "#E6DB74"
+      },
+      "monospace": {
+        "color": "#66D9EF"
+      },
+      "invalid": {
+        "color": "#F8F8F0",
+        "backgroundColor": "#F92672"
+      }
+    }
+  }
+}

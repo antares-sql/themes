@@ -1,0 +1,171 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "twilight",
+  "name": "Twilight",
+  "appearance": "dark",
+  "author": "Antares SQL",
+  "description": "Twilight for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+  "license": "BSD-3-Clause",
+  "tags": [
+    "ace"
+  ],
+  "colors": {
+    "bg-app": "#141414",
+    "bg-panel": "#1f1f1f",
+    "bg-panel-hover": "#343434",
+    "bg-surface": "#141414",
+    "bg-raised": "#2b2b2b",
+    "bg-titlebar": "#2b2b2b",
+    "bg-settingbar": "#0f0f0f",
+    "settingbar-text": "#ffffff",
+    "bg-tabbar": "#2b2b2b",
+    "bg-card": "#262626",
+    "bg-hover": "rgb(248 248 248 / 6%)",
+    "bg-hover-strong": "rgb(248 248 248 / 12%)",
+    "bg-overlay": "rgb(255 255 255 / 12%)",
+    "text": "#f8f8f8",
+    "text-muted": "#b4b4b4",
+    "success": "#32b643",
+    "warning": "#e0a40c",
+    "error": "#de3b28",
+    "border": "#464646",
+    "border-subtle": "#2b2b2b",
+    "separator": "#424242",
+    "divider": "rgb(248 248 248 / 12%)",
+    "shadow-color": "#000000",
+    "input-bg": "#222222",
+    "input-bg-readonly": "#141414",
+    "input-bg-disabled": "#1b1b1b",
+    "menu-hover-bg": "#222222",
+    "menu-hover-text": "accent",
+    "modal-header-bg": "#2b2b2b",
+    "modal-header-text": "#f8f8f8",
+    "context-bg": "#1f1f1f",
+    "context-text": "#f8f8f8",
+    "context-hover": "rgb(248 248 248 / 10%)",
+    "context-border": "#424242",
+    "tooltip-bg": "rgb(48 55 66 / 95%)",
+    "tooltip-text": "#fff",
+    "btn-dark-bg": "#424242",
+    "btn-dark-bg-hover": "#2b2b2b",
+    "btn-gray-bg": "#2b2b2b",
+    "btn-gray-bg-hover": "#1d1d1d",
+    "btn-text": "#ffffff",
+    "code-bg": "#0d0d0d",
+    "code-border": "#424242",
+    "code-text": "#8f9d6a",
+    "scrollbar-track": "#262626",
+    "scrollbar-thumb": "rgb(248 248 248 / 35%)",
+    "scrollbar-thumb-hover": "rgb(248 248 248 / 70%)",
+    "grid-header-bg": "#141414",
+    "grid-header-border": "#1f1f1f",
+    "grid-row-bg": "#1d1d1d",
+    "grid-border": "#141414",
+    "grid-cell-focus": "#919191",
+    "grid-cell-focus-bg": "rgb(0 0 0 / 30%)",
+    "table-border": "#363636",
+    "table-row-alt": "#1b1b1b",
+    "table-row-hover": "#262626",
+    "table-row-active": "#1f1f1f",
+    "table-row-selected": "rgb(248 248 248 / 15%)",
+    "diagram-dot": "rgb(248 248 248 / 10%)",
+    "diagram-table-bg": "#1f1f1f",
+    "diagram-table-border": "#585858",
+    "diagram-header-bg": "#343434",
+    "diagram-row-linked": "rgb(248 248 248 / 4%)",
+    "diagram-row-hover": "rgb(248 248 248 / 8%)",
+    "diagram-relation": "#868686",
+    "type-string": "#8f9d6a",
+    "type-number": "#cf6a4c",
+    "type-date": "#dad085",
+    "type-bit": "#cf6a4c",
+    "type-blob": "#f9ee98",
+    "type-array": "#7587a6",
+    "type-enum": "#cda869",
+    "type-unknown": "#5f5a60",
+    "size-chart-fill": "#8f9d6a",
+    "size-chart-track": "#4d4d4d"
+  },
+  "editor": {
+    "colors": {
+      "background": "#141414",
+      "foreground": "#F8F8F8",
+      "cursor": "#A7A7A7",
+      "selection": "rgba(221, 240, 255, 0.20)",
+      "gutterBackground": "#232323",
+      "gutterForeground": "#E2E2E2",
+      "gutterActiveLine": "rgba(255, 255, 255, 0.031)",
+      "activeLine": "rgba(255, 255, 255, 0.031)",
+      "matchingBracket": "rgba(255, 255, 255, 0.25)",
+      "selectionMatch": "rgba(221, 240, 255, 0.20)",
+      "invisible": "rgba(255, 255, 255, 0.25)"
+    },
+    "syntax": {
+      "keyword": {
+        "color": "#CDA869"
+      },
+      "operator": {
+        "color": "#CDA869"
+      },
+      "type": {
+        "color": "#F9EE98"
+      },
+      "builtin": {
+        "color": "#DAD085"
+      },
+      "number": {
+        "color": "#CF6A4C"
+      },
+      "atom": {
+        "color": "#CF6A4C"
+      },
+      "string": {
+        "color": "#8F9D6A"
+      },
+      "regexp": {
+        "color": "#E9C062"
+      },
+      "comment": {
+        "color": "#5F5A60",
+        "fontStyle": "italic"
+      },
+      "variable": {
+        "color": "#7587A6"
+      },
+      "property": {
+        "color": "#7587A6"
+      },
+      "tag": {
+        "color": "#AC885B"
+      },
+      "attributeValue": {
+        "color": "#8F9D6A"
+      },
+      "tagPunctuation": {
+        "color": "#AC885B"
+      },
+      "heading": {
+        "color": "#CF6A4C"
+      },
+      "emphasis": {
+        "color": "#8F9D6A"
+      },
+      "strong": {
+        "color": "#8F9D6A"
+      },
+      "list": {
+        "color": "#F9EE98"
+      },
+      "quote": {
+        "color": "#8F9D6A"
+      },
+      "monospace": {
+        "color": "#DAD085"
+      },
+      "meta": {
+        "color": "#494949"
+      }
+    }
+  }
+}

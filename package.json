@@ -1,0 +1,13 @@
+{
+  "name": "antares-themes",
+  "private": true,
+  "description": "Themes for Antares SQL",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "check": "node scripts/build.js --check"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

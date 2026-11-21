@@ -1,0 +1,516 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "title": "Antares SQL theme",
+  "description": "A theme for Antares SQL: interface colors, shape and code editor colors. Missing values fall back to the built-in theme with the same appearance.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "appearance"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1,
+      "default": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 64,
+      "description": "Unique id: lowercase letters, digits and dashes"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "appearance": {
+      "enum": [
+        "dark",
+        "light"
+      ],
+      "description": "Base theme: missing values are taken from it"
+    },
+    "author": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "version": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "license": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]{1,30}$"
+      }
+    },
+    "colors": {
+      "type": "object",
+      "description": "Interface colors. The value \"accent\" means the connection folder color, which themes can't change",
+      "additionalProperties": false,
+      "properties": {
+        "bg-app": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-panel": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-panel-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-surface": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-raised": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-titlebar": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-settingbar": {
+          "$ref": "#/definitions/color"
+        },
+        "settingbar-text": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-tabbar": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-card": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-hover-strong": {
+          "$ref": "#/definitions/color"
+        },
+        "bg-overlay": {
+          "$ref": "#/definitions/color"
+        },
+        "text": {
+          "$ref": "#/definitions/color"
+        },
+        "text-muted": {
+          "$ref": "#/definitions/color"
+        },
+        "success": {
+          "$ref": "#/definitions/color"
+        },
+        "warning": {
+          "$ref": "#/definitions/color"
+        },
+        "error": {
+          "$ref": "#/definitions/color"
+        },
+        "border": {
+          "$ref": "#/definitions/color"
+        },
+        "border-subtle": {
+          "$ref": "#/definitions/color"
+        },
+        "separator": {
+          "$ref": "#/definitions/color"
+        },
+        "divider": {
+          "$ref": "#/definitions/color"
+        },
+        "shadow-color": {
+          "$ref": "#/definitions/color"
+        },
+        "input-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "input-bg-readonly": {
+          "$ref": "#/definitions/color"
+        },
+        "input-bg-disabled": {
+          "$ref": "#/definitions/color"
+        },
+        "menu-hover-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "menu-hover-text": {
+          "$ref": "#/definitions/color"
+        },
+        "modal-header-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "modal-header-text": {
+          "$ref": "#/definitions/color"
+        },
+        "context-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "context-text": {
+          "$ref": "#/definitions/color"
+        },
+        "context-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "context-border": {
+          "$ref": "#/definitions/color"
+        },
+        "tooltip-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "tooltip-text": {
+          "$ref": "#/definitions/color"
+        },
+        "btn-dark-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "btn-dark-bg-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "btn-gray-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "btn-gray-bg-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "btn-text": {
+          "$ref": "#/definitions/color"
+        },
+        "code-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "code-border": {
+          "$ref": "#/definitions/color"
+        },
+        "code-text": {
+          "$ref": "#/definitions/color"
+        },
+        "scrollbar-track": {
+          "$ref": "#/definitions/color"
+        },
+        "scrollbar-thumb": {
+          "$ref": "#/definitions/color"
+        },
+        "scrollbar-thumb-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "grid-header-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "grid-header-border": {
+          "$ref": "#/definitions/color"
+        },
+        "grid-row-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "grid-border": {
+          "$ref": "#/definitions/color"
+        },
+        "grid-cell-focus": {
+          "$ref": "#/definitions/color"
+        },
+        "grid-cell-focus-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "table-border": {
+          "$ref": "#/definitions/color"
+        },
+        "table-row-alt": {
+          "$ref": "#/definitions/color"
+        },
+        "table-row-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "table-row-active": {
+          "$ref": "#/definitions/color"
+        },
+        "table-row-selected": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-dot": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-table-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-table-border": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-header-bg": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-row-linked": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-row-hover": {
+          "$ref": "#/definitions/color"
+        },
+        "diagram-relation": {
+          "$ref": "#/definitions/color"
+        },
+        "type-string": {
+          "$ref": "#/definitions/color"
+        },
+        "type-number": {
+          "$ref": "#/definitions/color"
+        },
+        "type-date": {
+          "$ref": "#/definitions/color"
+        },
+        "type-bit": {
+          "$ref": "#/definitions/color"
+        },
+        "type-blob": {
+          "$ref": "#/definitions/color"
+        },
+        "type-array": {
+          "$ref": "#/definitions/color"
+        },
+        "type-enum": {
+          "$ref": "#/definitions/color"
+        },
+        "type-unknown": {
+          "$ref": "#/definitions/color"
+        },
+        "size-chart-fill": {
+          "$ref": "#/definitions/color"
+        },
+        "size-chart-track": {
+          "$ref": "#/definitions/color"
+        }
+      }
+    },
+    "shape": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "radius": {
+          "$ref": "#/definitions/length",
+          "description": "From 0px to 20px (1rem = 20px)"
+        },
+        "radius-lg": {
+          "$ref": "#/definitions/length",
+          "description": "From 0px to 24px (1rem = 20px)"
+        },
+        "border-width": {
+          "$ref": "#/definitions/length",
+          "description": "From 0px to 5px (1rem = 20px)"
+        },
+        "border-width-lg": {
+          "$ref": "#/definitions/length",
+          "description": "From 0px to 6px (1rem = 20px)"
+        },
+        "grid-border-width": {
+          "$ref": "#/definitions/length",
+          "description": "From 0px to 6px (1rem = 20px)"
+        },
+        "focus-ring-width": {
+          "$ref": "#/definitions/length",
+          "description": "From 0px to 6px (1rem = 20px)"
+        },
+        "scrollbar-size": {
+          "$ref": "#/definitions/length",
+          "description": "From 4px to 24px (1rem = 20px)"
+        },
+        "focus-ring-color": {
+          "$ref": "#/definitions/color"
+        }
+      }
+    },
+    "editor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "colors": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "background": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "foreground": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "cursor": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "selection": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "gutterBackground": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "gutterForeground": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "gutterActiveLine": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "activeLine": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "matchingBracket": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "selectionMatch": {
+              "$ref": "#/definitions/plainColor"
+            },
+            "invisible": {
+              "$ref": "#/definitions/plainColor"
+            }
+          }
+        },
+        "syntax": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "keyword": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "operator": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "type": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "builtin": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "number": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "atom": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "string": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "regexp": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "comment": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "variable": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "property": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "punctuation": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "tag": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "attribute": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "attributeValue": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "tagPunctuation": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "heading": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "emphasis": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "strong": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "link": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "list": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "quote": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "monospace": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "meta": {
+              "$ref": "#/definitions/syntaxStyle"
+            },
+            "invalid": {
+              "$ref": "#/definitions/syntaxStyle"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "plainColor": {
+      "type": "string",
+      "maxLength": 64,
+      "description": "Hex, rgb()/rgba()/hsl()/hsla() or a CSS color name",
+      "pattern": "^\\s*(#([0-9a-fA-F]{3,4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})|(rgb|rgba|hsl|hsla)\\(\\s*[-+0-9.%,/\\s]*(deg|turn|rad)?[-+0-9.%,/\\s]*\\)|[a-zA-Z]{3,20})\\s*$"
+    },
+    "color": {
+      "$ref": "#/definitions/plainColor",
+      "description": "A color, or \"accent\" for the connection folder color"
+    },
+    "length": {
+      "type": "string",
+      "pattern": "^\\s*(\\d*\\.?\\d+(px|rem)|0)\\s*$"
+    },
+    "syntaxStyle": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "$ref": "#/definitions/plainColor"
+        },
+        "backgroundColor": {
+          "$ref": "#/definitions/plainColor"
+        },
+        "fontStyle": {
+          "enum": [
+            "normal",
+            "italic"
+          ]
+        },
+        "fontWeight": {
+          "enum": [
+            "normal",
+            "bold",
+            "100",
+            "200",
+            "300",
+            "400",
+            "500",
+            "600",
+            "700",
+            "800",
+            "900"
+          ]
+        },
+        "textDecoration": {
+          "enum": [
+            "none",
+            "underline",
+            "line-through"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "ambiance",
+      "name": "Ambiance",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Ambiance for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/ambiance/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/ambiance/preview.png"
+    },
+    {
+      "id": "chaos",
+      "name": "Chaos",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Chaos for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chaos/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chaos/preview.png"
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Chrome for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chrome/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/chrome/preview.png"
+    },
+    {
+      "id": "clouds",
+      "name": "Clouds",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Clouds for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds/preview.png"
+    },
+    {
+      "id": "clouds-midnight",
+      "name": "Clouds Midnight",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Clouds Midnight for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds-midnight/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/clouds-midnight/preview.png"
+    },
+    {
+      "id": "cobalt",
+      "name": "Cobalt",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Cobalt for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/cobalt/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/cobalt/preview.png"
+    },
+    {
+      "id": "crimson-editor",
+      "name": "Crimson Editor",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Crimson Editor for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/crimson-editor/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/crimson-editor/preview.png"
+    },
+    {
+      "id": "dawn",
+      "name": "Dawn",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Dawn for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dawn/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dawn/preview.png"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Dracula for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dracula/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dracula/preview.png"
+    },
+    {
+      "id": "dreamweaver",
+      "name": "Dreamweaver",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Dreamweaver for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dreamweaver/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/dreamweaver/preview.png"
+    },
+    {
+      "id": "eclipse",
+      "name": "Eclipse",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Eclipse for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/eclipse/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/eclipse/preview.png"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "GitHub for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/github/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/github/preview.png"
+    },
+    {
+      "id": "gob",
+      "name": "Green on Black",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Green on Black for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gob/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gob/preview.png"
+    },
+    {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Gruvbox for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gruvbox/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/gruvbox/preview.png"
+    },
+    {
+      "id": "idle-fingers",
+      "name": "Idle Fingers",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Idle Fingers for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/idle-fingers/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/idle-fingers/preview.png"
+    },
+    {
+      "id": "iplastic",
+      "name": "IPlastic",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "IPlastic for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/iplastic/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/iplastic/preview.png"
+    },
+    {
+      "id": "katzenmilch",
+      "name": "KatzenMilch",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "KatzenMilch for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/katzenmilch/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/katzenmilch/preview.png"
+    },
+    {
+      "id": "kr-theme",
+      "name": "krTheme",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "krTheme for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kr-theme/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kr-theme/preview.png"
+    },
+    {
+      "id": "kuroir",
+      "name": "Kuroir",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Kuroir for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kuroir/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/kuroir/preview.png"
+    },
+    {
+      "id": "merbivore",
+      "name": "Merbivore",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Merbivore for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/merbivore/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/merbivore/preview.png"
+    },
+    {
+      "id": "mono-industrial",
+      "name": "Mono Industrial",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Mono Industrial for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/mono-industrial/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/mono-industrial/preview.png"
+    },
+    {
+      "id": "monokai",
+      "name": "Monokai",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Monokai for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/monokai/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/monokai/preview.png"
+    },
+    {
+      "id": "nord-dark",
+      "name": "Nord Dark",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Nord Dark for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/nord-dark/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/nord-dark/preview.png"
+    },
+    {
+      "id": "pastel-on-dark",
+      "name": "Pastel on Dark",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Pastel on Dark for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/pastel-on-dark/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/pastel-on-dark/preview.png"
+    },
+    {
+      "id": "solarized-dark",
+      "name": "Solarized Dark",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Solarized Dark for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-dark/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-dark/preview.png"
+    },
+    {
+      "id": "solarized-light",
+      "name": "Solarized Light",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Solarized Light for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-light/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/solarized-light/preview.png"
+    },
+    {
+      "id": "sqlserver",
+      "name": "SQL Server",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "SQL Server for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/sqlserver/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/sqlserver/preview.png"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Terminal for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/terminal/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/terminal/preview.png"
+    },
+    {
+      "id": "textmate",
+      "name": "TextMate",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "TextMate for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/textmate/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/textmate/preview.png"
+    },
+    {
+      "id": "tomorrow",
+      "name": "Tomorrow",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Tomorrow for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow/preview.png"
+    },
+    {
+      "id": "tomorrow-night",
+      "name": "Tomorrow Night",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Tomorrow Night for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night/preview.png"
+    },
+    {
+      "id": "tomorrow-night-blue",
+      "name": "Tomorrow Night Blue",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Tomorrow Night Blue for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-blue/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-blue/preview.png"
+    },
+    {
+      "id": "tomorrow-night-bright",
+      "name": "Tomorrow Night Bright",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Tomorrow Night Bright for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-bright/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-bright/preview.png"
+    },
+    {
+      "id": "tomorrow-night-eighties",
+      "name": "Tomorrow Night 80s",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Tomorrow Night 80s for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-eighties/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/tomorrow-night-eighties/preview.png"
+    },
+    {
+      "id": "twilight",
+      "name": "Twilight",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Twilight for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/twilight/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/twilight/preview.png"
+    },
+    {
+      "id": "vibrant-ink",
+      "name": "Vibrant Ink",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Vibrant Ink for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/vibrant-ink/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/vibrant-ink/preview.png"
+    },
+    {
+      "id": "xcode",
+      "name": "Xcode",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Xcode for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+      "tags": [
+        "ace"
+      ],
+      "theme": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/xcode/theme.json",
+      "preview": "https://raw.githubusercontent.com/antares-sql/themes/main/themes/xcode/preview.png"
+    }
+  ]
+}

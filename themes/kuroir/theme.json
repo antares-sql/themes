@@ -1,0 +1,164 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "kuroir",
+  "name": "Kuroir",
+  "appearance": "light",
+  "author": "Antares SQL",
+  "description": "Kuroir for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+  "license": "BSD-3-Clause",
+  "tags": [
+    "ace"
+  ],
+  "colors": {
+    "bg-app": "#e8e9e8",
+    "bg-panel": "#e1e2e1",
+    "bg-panel-hover": "#cfd0cf",
+    "bg-surface": "#e8e9e8",
+    "bg-raised": "#f6f6f6",
+    "bg-titlebar": "#dcdddc",
+    "bg-settingbar": "#5d5d5d",
+    "settingbar-text": "#ffffff",
+    "bg-tabbar": "#e8e9e8",
+    "bg-card": "#dadbda",
+    "bg-hover": "rgb(54 54 54 / 6%)",
+    "bg-hover-strong": "rgb(54 54 54 / 12%)",
+    "bg-overlay": "rgb(27 27 27 / 60%)",
+    "text": "#363636",
+    "text-muted": "#6b6c6b",
+    "success": "#32b643",
+    "warning": "#e0a40c",
+    "error": "#de3b28",
+    "border": "#c1c2c1",
+    "border-subtle": "#d6d7d6",
+    "separator": "#c4c5c4",
+    "divider": "rgb(54 54 54 / 12%)",
+    "shadow-color": "#000000",
+    "input-bg": "#e3e4e3",
+    "input-bg-readonly": "#dfe0df",
+    "input-bg-disabled": "#b3b3b3",
+    "menu-hover-bg": "#dddedd",
+    "menu-hover-text": "accent",
+    "modal-header-bg": "#5d5d5d",
+    "modal-header-text": "#ffffff",
+    "context-bg": "#f6f6f6",
+    "context-text": "#363636",
+    "context-hover": "rgb(54 54 54 / 10%)",
+    "context-border": "#c4c5c4",
+    "tooltip-bg": "rgb(48 55 66 / 95%)",
+    "tooltip-text": "#fff",
+    "btn-dark-bg": "#868786",
+    "btn-dark-bg-hover": "#636363",
+    "btn-gray-bg": "#636363",
+    "btn-gray-bg-hover": "#515151",
+    "btn-text": "#ffffff",
+    "code-bg": "#dcdddc",
+    "code-border": "#c4c5c4",
+    "code-text": "#639300",
+    "scrollbar-track": "#dadbda",
+    "scrollbar-thumb": "rgb(54 54 54 / 35%)",
+    "scrollbar-thumb-hover": "rgb(54 54 54 / 70%)",
+    "grid-header-bg": "#cccdcc",
+    "grid-header-border": "transparent",
+    "grid-row-bg": "#e1e2e1",
+    "grid-border": "rgb(54 54 54 / 12%)",
+    "grid-cell-focus": "#868786",
+    "grid-cell-focus-bg": "#f8f8f8",
+    "table-border": "#cdcecd",
+    "table-row-alt": "#e3e4e3",
+    "table-row-hover": "#dadbda",
+    "table-row-active": "#dfe0df",
+    "table-row-selected": "rgb(54 54 54 / 15%)",
+    "diagram-dot": "rgb(54 54 54 / 10%)",
+    "diagram-table-bg": "#dfe0df",
+    "diagram-table-border": "#b3b3b3",
+    "diagram-header-bg": "#cfd0cf",
+    "diagram-row-linked": "rgb(54 54 54 / 4%)",
+    "diagram-row-hover": "rgb(54 54 54 / 8%)",
+    "diagram-relation": "#8f908f",
+    "type-string": "#639300",
+    "type-number": "#9a5925",
+    "type-date": "#005273",
+    "type-bit": "#cd6839",
+    "type-blob": "#a52a2a",
+    "type-array": "#009acd",
+    "type-enum": "goldenrod",
+    "type-unknown": "gray",
+    "size-chart-fill": "#639300",
+    "size-chart-track": "#bcbcbc"
+  },
+  "editor": {
+    "colors": {
+      "background": "#E8E9E8",
+      "foreground": "#363636",
+      "cursor": "#202020",
+      "selection": "rgba(245, 170, 0, 0.57)",
+      "gutterBackground": "#e8e8e8",
+      "gutterForeground": "#333",
+      "gutterActiveLine": "rgba(203, 220, 47, 0.22)",
+      "activeLine": "rgba(203, 220, 47, 0.22)",
+      "matchingBracket": "rgba(0, 0, 0, 0.29)",
+      "selectionMatch": "rgba(245, 170, 0, 0.57)",
+      "invisible": "#BFBFBF"
+    },
+    "syntax": {
+      "type": {
+        "color": "#A52A2A"
+      },
+      "builtin": {
+        "color": "#005273"
+      },
+      "number": {
+        "color": "#9A5925"
+      },
+      "atom": {
+        "color": "#CD6839"
+      },
+      "string": {
+        "color": "#639300"
+      },
+      "regexp": {
+        "color": "#417E00",
+        "backgroundColor": "#C9D4BE"
+      },
+      "comment": {
+        "color": "rgba(148, 148, 148, 0.91)",
+        "backgroundColor": "rgba(220, 220, 220, 0.56)"
+      },
+      "variable": {
+        "color": "#009ACD"
+      },
+      "property": {
+        "color": "#009ACD"
+      },
+      "tag": {
+        "color": "#005273"
+      },
+      "attributeValue": {
+        "color": "#639300"
+      },
+      "tagPunctuation": {
+        "color": "#005273"
+      },
+      "heading": {
+        "color": "#B8012D",
+        "backgroundColor": "rgba(191, 97, 51, 0.051)"
+      },
+      "emphasis": {
+        "color": "#639300"
+      },
+      "strong": {
+        "color": "#639300"
+      },
+      "list": {
+        "color": "#8F5B26"
+      },
+      "quote": {
+        "color": "#639300"
+      },
+      "monospace": {
+        "color": "#005273"
+      }
+    }
+  }
+}

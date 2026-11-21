@@ -1,0 +1,164 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "solarized-light",
+  "name": "Solarized Light",
+  "appearance": "light",
+  "author": "Antares SQL",
+  "description": "Solarized Light for Antares: the code editor theme ported from the Ace editor, with a matching interface.",
+  "license": "BSD-3-Clause",
+  "tags": [
+    "ace"
+  ],
+  "colors": {
+    "bg-app": "#fdf6e3",
+    "bg-panel": "#f5efdc",
+    "bg-panel-hover": "#e6e3d4",
+    "bg-surface": "#fdf6e3",
+    "bg-raised": "#fefbf4",
+    "bg-titlebar": "#f0ead8",
+    "bg-settingbar": "#7c8c8d",
+    "settingbar-text": "#000000",
+    "bg-tabbar": "#fdf6e3",
+    "bg-card": "#f0ebda",
+    "bg-hover": "rgb(88 110 117 / 6%)",
+    "bg-hover-strong": "rgb(88 110 117 / 12%)",
+    "bg-overlay": "rgb(44 55 59 / 60%)",
+    "text": "#586e75",
+    "text-muted": "#8a9796",
+    "success": "#32b643",
+    "warning": "#e0a40c",
+    "error": "#de3b28",
+    "border": "#d9d8cb",
+    "border-subtle": "#ede8d8",
+    "separator": "#dcdbcd",
+    "divider": "rgb(88 110 117 / 12%)",
+    "shadow-color": "#000000",
+    "input-bg": "#f8f1de",
+    "input-bg-readonly": "#f3ecda",
+    "input-bg-disabled": "#cccdc2",
+    "menu-hover-bg": "#f3eedc",
+    "menu-hover-text": "accent",
+    "modal-header-bg": "#7c8c8d",
+    "modal-header-text": "#000000",
+    "context-bg": "#fefbf4",
+    "context-text": "#586e75",
+    "context-hover": "rgb(88 110 117 / 10%)",
+    "context-border": "#dcdbcd",
+    "tooltip-bg": "rgb(48 55 66 / 95%)",
+    "tooltip-text": "#fff",
+    "btn-dark-bg": "#a2aba7",
+    "btn-dark-bg-hover": "#819091",
+    "btn-gray-bg": "#819091",
+    "btn-gray-bg-hover": "#718286",
+    "btn-text": "#ffffff",
+    "code-bg": "#f0ead8",
+    "code-border": "#dcdbcd",
+    "code-text": "#2aa198",
+    "scrollbar-track": "#f0ebda",
+    "scrollbar-thumb": "rgb(88 110 117 / 35%)",
+    "scrollbar-thumb-hover": "rgb(88 110 117 / 70%)",
+    "grid-header-bg": "#dfd8c8",
+    "grid-header-border": "transparent",
+    "grid-row-bg": "#f6f1df",
+    "grid-border": "rgb(88 110 117 / 12%)",
+    "grid-cell-focus": "#a2aba7",
+    "grid-cell-focus-bg": "#fefcf7",
+    "table-border": "#e4e2d3",
+    "table-row-alt": "#f8f2e0",
+    "table-row-hover": "#f0ebda",
+    "table-row-active": "#f5efde",
+    "table-row-selected": "rgb(88 110 117 / 15%)",
+    "diagram-dot": "rgb(88 110 117 / 10%)",
+    "diagram-table-bg": "#f5efde",
+    "diagram-table-border": "#cccdc2",
+    "diagram-header-bg": "#e6e3d4",
+    "diagram-row-linked": "rgb(88 110 117 / 4%)",
+    "diagram-row-hover": "rgb(88 110 117 / 8%)",
+    "diagram-relation": "#abb2ac",
+    "type-string": "#2aa198",
+    "type-number": "#d33682",
+    "type-date": "#268bd2",
+    "type-bit": "#b58900",
+    "type-blob": "#073642",
+    "type-array": "#268bd2",
+    "type-enum": "#859900",
+    "type-unknown": "gray",
+    "size-chart-fill": "#2aa198",
+    "size-chart-track": "#d4d4c8"
+  },
+  "editor": {
+    "colors": {
+      "background": "#FDF6E3",
+      "foreground": "#586E75",
+      "cursor": "#000000",
+      "selection": "rgba(7, 54, 67, 0.09)",
+      "gutterBackground": "#fbf1d3",
+      "gutterForeground": "#333",
+      "gutterActiveLine": "#EDE5C1",
+      "activeLine": "rgba(39, 46, 27, 0.07)",
+      "matchingBracket": "rgba(147, 161, 161, 0.50)",
+      "selectionMatch": "#7f9390",
+      "invisible": "rgba(147, 161, 161, 0.50)"
+    },
+    "syntax": {
+      "keyword": {
+        "color": "#859900"
+      },
+      "operator": {
+        "color": "#859900"
+      },
+      "type": {
+        "color": "#073642"
+      },
+      "builtin": {
+        "color": "#268BD2"
+      },
+      "number": {
+        "color": "#D33682"
+      },
+      "atom": {
+        "color": "#B58900"
+      },
+      "string": {
+        "color": "#2AA198"
+      },
+      "regexp": {
+        "color": "#D30102"
+      },
+      "comment": {
+        "color": "#93A1A1"
+      },
+      "variable": {
+        "color": "#268BD2"
+      },
+      "property": {
+        "color": "#268BD2"
+      },
+      "tag": {
+        "color": "#859900"
+      },
+      "attribute": {
+        "color": "#93A1A1"
+      },
+      "attributeValue": {
+        "color": "#2AA198"
+      },
+      "tagPunctuation": {
+        "color": "#859900"
+      },
+      "emphasis": {
+        "color": "#2AA198"
+      },
+      "strong": {
+        "color": "#2AA198"
+      },
+      "quote": {
+        "color": "#2AA198"
+      },
+      "monospace": {
+        "color": "#268BD2"
+      }
+    }
+  }
+}
