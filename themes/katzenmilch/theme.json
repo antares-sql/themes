@@ -26,6 +26,7 @@
     "bg-overlay": "rgb(8 0 5 / 60%)",
     "text": "#0f0009",
     "text-muted": "#53494f",
+    "text-placeholder": "#8c858a",
     "success": "#32b643",
     "warning": "#e0a40c",
     "error": "#de3b28",

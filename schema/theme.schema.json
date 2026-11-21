@@ -111,6 +111,9 @@
         "text-muted": {
           "$ref": "#/definitions/color"
         },
+        "text-placeholder": {
+          "$ref": "#/definitions/color"
+        },
         "success": {
           "$ref": "#/definitions/color"
         },
