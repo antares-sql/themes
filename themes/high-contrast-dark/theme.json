@@ -1,0 +1,169 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "high-contrast-dark",
+  "name": "High Contrast Dark",
+  "appearance": "dark",
+  "author": "Antares SQL",
+  "description": "High Contrast Dark: maximum contrast, thick borders, a strong focus ring and wide scrollbars, for low vision users. Pair it with a larger interface text size (Settings, Themes).",
+  "license": "MIT",
+  "tags": [
+    "accessibility",
+    "high-contrast"
+  ],
+  "colors": {
+    "bg-app": "#000000",
+    "bg-panel": "#000000",
+    "bg-panel-hover": "#333333",
+    "bg-surface": "#000000",
+    "bg-raised": "#0a0a0a",
+    "bg-titlebar": "#000000",
+    "bg-settingbar": "#000000",
+    "settingbar-text": "#ffffff",
+    "bg-tabbar": "#000000",
+    "bg-card": "#0a0a0a",
+    "bg-hover": "rgb(255 255 255 / 18%)",
+    "bg-hover-strong": "rgb(255 255 255 / 28%)",
+    "bg-overlay": "rgb(255 255 255 / 25%)",
+    "text": "#ffffff",
+    "text-muted": "#e0e0e0",
+    "success": "#32b643",
+    "warning": "#e0a40c",
+    "error": "#de3b28",
+    "border": "#ffffff",
+    "border-subtle": "#bfbfbf",
+    "separator": "#ffffff",
+    "divider": "rgb(255 255 255 / 60%)",
+    "shadow-color": "#ffffff",
+    "input-bg": "#000000",
+    "input-bg-readonly": "#1a1a1a",
+    "input-bg-disabled": "#333333",
+    "menu-hover-bg": "#333333",
+    "menu-hover-text": "#ffff00",
+    "modal-header-bg": "#000000",
+    "modal-header-text": "#ffffff",
+    "context-bg": "#000000",
+    "context-text": "#ffffff",
+    "context-hover": "#333333",
+    "context-border": "#ffffff",
+    "tooltip-bg": "#ffffff",
+    "tooltip-text": "#000000",
+    "btn-dark-bg": "#1a1a1a",
+    "btn-dark-bg-hover": "#333333",
+    "btn-gray-bg": "#1a1a1a",
+    "btn-gray-bg-hover": "#333333",
+    "btn-text": "#ffffff",
+    "code-bg": "#000000",
+    "code-border": "#ffffff",
+    "code-text": "#ffffff",
+    "scrollbar-track": "#1a1a1a",
+    "scrollbar-thumb": "#bfbfbf",
+    "scrollbar-thumb-hover": "#ffffff",
+    "grid-header-bg": "#1a1a1a",
+    "grid-header-border": "#ffffff",
+    "grid-row-bg": "#000000",
+    "grid-border": "#808080",
+    "grid-cell-focus": "#ffff00",
+    "grid-cell-focus-bg": "#333333",
+    "table-border": "#ffffff",
+    "table-row-alt": "#0d0d0d",
+    "table-row-hover": "#262626",
+    "table-row-active": "#1a1a1a",
+    "table-row-selected": "#404040",
+    "diagram-dot": "rgb(255 255 255 / 25%)",
+    "diagram-table-bg": "#000000",
+    "diagram-table-border": "#ffffff",
+    "diagram-header-bg": "#262626",
+    "diagram-row-linked": "rgb(255 255 0 / 15%)",
+    "diagram-row-hover": "rgb(255 255 255 / 20%)",
+    "diagram-relation": "#ffffff",
+    "type-string": "#7fff7f",
+    "type-number": "#87cefa",
+    "type-date": "#ffb86c",
+    "type-bit": "#00ffff",
+    "type-blob": "#ff9eff",
+    "type-array": "#c6ff4f",
+    "type-enum": "#ffd700",
+    "type-unknown": "#d0d0d0",
+    "size-chart-fill": "#ffff00",
+    "size-chart-track": "#ffffff"
+  },
+  "shape": {
+    "radius": "0.15rem",
+    "radius-lg": "6px",
+    "border-width": "2px",
+    "border-width-lg": "3px",
+    "grid-border-width": "2px",
+    "focus-ring-width": "3px",
+    "scrollbar-size": "16px",
+    "focus-ring-color": "#ffff00"
+  },
+  "editor": {
+    "colors": {
+      "background": "#000000",
+      "foreground": "#ffffff",
+      "cursor": "#ffff00",
+      "selection": "#264f78",
+      "gutterBackground": "#000000",
+      "gutterForeground": "#ffffff",
+      "gutterActiveLine": "#262626",
+      "activeLine": "#1a1a1a",
+      "matchingBracket": "#555555",
+      "selectionMatch": "#3a3a3a",
+      "invisible": "#808080"
+    },
+    "syntax": {
+      "keyword": {
+        "color": "#ffd700",
+        "fontWeight": "bold"
+      },
+      "operator": {
+        "color": "#ffffff"
+      },
+      "type": {
+        "color": "#87cefa"
+      },
+      "builtin": {
+        "color": "#ff9eff"
+      },
+      "number": {
+        "color": "#87cefa"
+      },
+      "atom": {
+        "color": "#00ffff"
+      },
+      "string": {
+        "color": "#7fff7f"
+      },
+      "regexp": {
+        "color": "#7fff7f"
+      },
+      "comment": {
+        "color": "#d0d0d0",
+        "fontStyle": "italic"
+      },
+      "variable": {
+        "color": "#ffb86c"
+      },
+      "property": {
+        "color": "#ffffff"
+      },
+      "punctuation": {
+        "color": "#ffffff"
+      },
+      "tag": {
+        "color": "#ffd700"
+      },
+      "attribute": {
+        "color": "#87cefa"
+      },
+      "attributeValue": {
+        "color": "#7fff7f"
+      },
+      "invalid": {
+        "color": "#ff6b6b",
+        "textDecoration": "underline"
+      }
+    }
+  }
+}

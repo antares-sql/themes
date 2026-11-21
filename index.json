@@ -170,6 +170,32 @@
       "preview": "themes/gruvbox/preview.png"
     },
     {
+      "id": "high-contrast-dark",
+      "name": "High Contrast Dark",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "High Contrast Dark: maximum contrast, thick borders, a strong focus ring and wide scrollbars, for low vision users. Pair it with a larger interface text size (Settings, Themes).",
+      "tags": [
+        "accessibility",
+        "high-contrast"
+      ],
+      "theme": "themes/high-contrast-dark/theme.json",
+      "preview": "themes/high-contrast-dark/preview.png"
+    },
+    {
+      "id": "high-contrast-light",
+      "name": "High Contrast Light",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "High Contrast Light: maximum contrast, thick borders, a strong focus ring and wide scrollbars, for low vision users. Pair it with a larger interface text size (Settings, Themes).",
+      "tags": [
+        "accessibility",
+        "high-contrast"
+      ],
+      "theme": "themes/high-contrast-light/theme.json",
+      "preview": "themes/high-contrast-light/preview.png"
+    },
+    {
       "id": "idle-fingers",
       "name": "Idle Fingers",
       "appearance": "dark",

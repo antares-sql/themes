@@ -63,6 +63,8 @@ The themes tagged `ace` are the code editor themes Antares inherited from the Ac
 | [GitHub](themes/github) | ☀️ Light | <img src="themes/github/preview.png" width="240"> |
 | [Green on Black](themes/gob) | 🌙 Dark | <img src="themes/gob/preview.png" width="240"> |
 | [Gruvbox](themes/gruvbox) | 🌙 Dark | <img src="themes/gruvbox/preview.png" width="240"> |
+| [High Contrast Dark](themes/high-contrast-dark) | 🌙 Dark | <img src="themes/high-contrast-dark/preview.png" width="240"> |
+| [High Contrast Light](themes/high-contrast-light) | ☀️ Light | <img src="themes/high-contrast-light/preview.png" width="240"> |
 | [Idle Fingers](themes/idle-fingers) | 🌙 Dark | <img src="themes/idle-fingers/preview.png" width="240"> |
 | [IPlastic](themes/iplastic) | ☀️ Light | <img src="themes/iplastic/preview.png" width="240"> |
 | [KatzenMilch](themes/katzenmilch) | ☀️ Light | <img src="themes/katzenmilch/preview.png" width="240"> |
