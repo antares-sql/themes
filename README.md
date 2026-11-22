@@ -29,6 +29,7 @@ A theme is a JSON file. Everything except `id`, `name` and `appearance` is optio
 }
 ```
 
+- **No code needed:** the [web theme editor](https://antares-sql.app/theme-editor) shows a live Antares window: click an element, change its colors, then export the JSON. It can start from the built-in themes or from any theme of this gallery.
 - **Start from a complete theme:** [base/dark.json](base/dark.json) and [base/light.json](base/light.json) contain every value of the built-in themes. Every theme can also be exported from Antares (**Settings → Themes → Export**).
 - **Try it while you work:** import it in Antares, edit the file and import it again (same `id` replaces it).
 - **The schema** ([schema/theme.schema.json](schema/theme.schema.json)) lists every token: editors such as VS Code complete and check the file thanks to the `$schema` line.
@@ -94,6 +95,6 @@ The themes tagged `ace` are the code editor themes Antares inherited from the Ac
 
 ## Maintainers
 
-`schema/` and `base/` are generated from the Antares sources, which are the reference for the tokens:
+`schema/` (`theme.schema.json` and `tokens.json`, the token catalog read by the web editor) and `base/` are generated from the Antares sources, which are the reference for the tokens:
 `node scripts/themeKit.js <path of this repository>` in the Antares repository. Previews can be regenerated with the real app:
 `node scripts/themePreviews.js <path of this repository> [ids...]` (see the script for the setup).
