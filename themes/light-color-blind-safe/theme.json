@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "light-color-blind-safe",
+  "name": "Light Color-Blind Safe",
+  "appearance": "light",
+  "author": "Antares SQL",
+  "description": "Light Color-Blind Safe: the built-in light theme with folder, status and data type colors from the Okabe-Ito and Paul Tol palettes, distinguishable with deuteranopia, protanopia and tritanopia. Success and error are bluish green and vermillion instead of green and red.",
+  "license": "MIT",
+  "tags": [
+    "accessibility",
+    "color-blind"
+  ],
+  "colors": {
+    "success": "#007A5A",
+    "warning": "#A66F00",
+    "error": "#B34E00",
+    "type-string": "#007A5A",
+    "type-number": "#0072B2",
+    "type-date": "#A66F00",
+    "type-bit": "#005A8C",
+    "type-blob": "#A0527F",
+    "type-array": "#6B6B1F",
+    "type-enum": "#B34E00",
+    "type-unknown": "#666666",
+    "size-chart-fill": "#0072B2",
+    "size-chart-track": "#c0c0c0"
+  },
+  "accent": {
+    "default": "#E69F00",
+    "grape-fruit": "#CC6677",
+    "rose": "#D55E00",
+    "fire": "#DDCC77",
+    "sunflower": "#F0E442",
+    "moss": "#999933",
+    "grass": "#117733",
+    "emerald": "#009E73",
+    "mint": "#44AA99",
+    "aqua": "#88CCEE",
+    "royal-lblue": "#332288",
+    "blue-jeans": "#0072B2",
+    "stone": "#56B4E9",
+    "lavander": "#AA4499",
+    "pink-rose": "#CC79A7",
+    "smoke": "#BBBBBB",
+    "slate": "#882255"
+  }
+}

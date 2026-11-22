@@ -333,6 +333,98 @@
         }
       }
     },
+    "accent": {
+      "type": "object",
+      "description": "Colors of the connection folder palette: \"default\" is the accent of the app, the other slots the colors a folder can get (e.g. a palette for color vision deficiencies)",
+      "additionalProperties": false,
+      "properties": {
+        "default": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #E36929"
+        },
+        "grape-fruit": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #ED5565"
+        },
+        "rose": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #E3242B"
+        },
+        "fire": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #FDA50F"
+        },
+        "sunflower": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #FFCE54"
+        },
+        "moss": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #8A985E"
+        },
+        "grass": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #6DCD05"
+        },
+        "emerald": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #038835"
+        },
+        "mint": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #48CFAD"
+        },
+        "aqua": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #4FC1E9"
+        },
+        "royal-lblue": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #4169E1"
+        },
+        "blue-jeans": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #5D9CEC"
+        },
+        "stone": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #59788E"
+        },
+        "lavander": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #AC92EC"
+        },
+        "pink-rose": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #EC87C0"
+        },
+        "smoke": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #BEBDB8"
+        },
+        "slate": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Default #757C88"
+        }
+      }
+    },
     "editor": {
       "type": "object",
       "additionalProperties": false,

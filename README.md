@@ -56,6 +56,7 @@ The themes tagged `ace` are the code editor themes Antares inherited from the Ac
 | [Clouds Midnight](themes/clouds-midnight) | 🌙 Dark | <img src="themes/clouds-midnight/preview.png" width="240"> |
 | [Cobalt](themes/cobalt) | 🌙 Dark | <img src="themes/cobalt/preview.png" width="240"> |
 | [Crimson Editor](themes/crimson-editor) | ☀️ Light | <img src="themes/crimson-editor/preview.png" width="240"> |
+| [Dark Color-Blind Safe](themes/dark-color-blind-safe) | 🌙 Dark | <img src="themes/dark-color-blind-safe/preview.png" width="240"> |
 | [Dawn](themes/dawn) | ☀️ Light | <img src="themes/dawn/preview.png" width="240"> |
 | [Dracula](themes/dracula) | 🌙 Dark | <img src="themes/dracula/preview.png" width="240"> |
 | [Dreamweaver](themes/dreamweaver) | ☀️ Light | <img src="themes/dreamweaver/preview.png" width="240"> |
@@ -70,6 +71,7 @@ The themes tagged `ace` are the code editor themes Antares inherited from the Ac
 | [KatzenMilch](themes/katzenmilch) | ☀️ Light | <img src="themes/katzenmilch/preview.png" width="240"> |
 | [krTheme](themes/kr-theme) | 🌙 Dark | <img src="themes/kr-theme/preview.png" width="240"> |
 | [Kuroir](themes/kuroir) | ☀️ Light | <img src="themes/kuroir/preview.png" width="240"> |
+| [Light Color-Blind Safe](themes/light-color-blind-safe) | ☀️ Light | <img src="themes/light-color-blind-safe/preview.png" width="240"> |
 | [Merbivore](themes/merbivore) | 🌙 Dark | <img src="themes/merbivore/preview.png" width="240"> |
 | [Mono Industrial](themes/mono-industrial) | 🌙 Dark | <img src="themes/mono-industrial/preview.png" width="240"> |
 | [Monokai](themes/monokai) | 🌙 Dark | <img src="themes/monokai/preview.png" width="240"> |

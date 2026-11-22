@@ -86,6 +86,19 @@
       "preview": "themes/crimson-editor/preview.png"
     },
     {
+      "id": "dark-color-blind-safe",
+      "name": "Dark Color-Blind Safe",
+      "appearance": "dark",
+      "author": "Antares SQL",
+      "description": "Dark Color-Blind Safe: the built-in dark theme with folder, status and data type colors from the Okabe-Ito and Paul Tol palettes, distinguishable with deuteranopia, protanopia and tritanopia. Success and error are bluish green and vermillion instead of green and red.",
+      "tags": [
+        "accessibility",
+        "color-blind"
+      ],
+      "theme": "themes/dark-color-blind-safe/theme.json",
+      "preview": "themes/dark-color-blind-safe/preview.png"
+    },
+    {
       "id": "dawn",
       "name": "Dawn",
       "appearance": "light",
@@ -254,6 +267,19 @@
       ],
       "theme": "themes/kuroir/theme.json",
       "preview": "themes/kuroir/preview.png"
+    },
+    {
+      "id": "light-color-blind-safe",
+      "name": "Light Color-Blind Safe",
+      "appearance": "light",
+      "author": "Antares SQL",
+      "description": "Light Color-Blind Safe: the built-in light theme with folder, status and data type colors from the Okabe-Ito and Paul Tol palettes, distinguishable with deuteranopia, protanopia and tritanopia. Success and error are bluish green and vermillion instead of green and red.",
+      "tags": [
+        "accessibility",
+        "color-blind"
+      ],
+      "theme": "themes/light-color-blind-safe/theme.json",
+      "preview": "themes/light-color-blind-safe/preview.png"
     },
     {
       "id": "merbivore",

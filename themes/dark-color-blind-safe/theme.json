@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/antares-sql/themes/main/schema/theme.schema.json",
+  "schemaVersion": 1,
+  "id": "dark-color-blind-safe",
+  "name": "Dark Color-Blind Safe",
+  "appearance": "dark",
+  "author": "Antares SQL",
+  "description": "Dark Color-Blind Safe: the built-in dark theme with folder, status and data type colors from the Okabe-Ito and Paul Tol palettes, distinguishable with deuteranopia, protanopia and tritanopia. Success and error are bluish green and vermillion instead of green and red.",
+  "license": "MIT",
+  "tags": [
+    "accessibility",
+    "color-blind"
+  ],
+  "colors": {
+    "success": "#009E73",
+    "warning": "#E69F00",
+    "error": "#D55E00",
+    "type-string": "#009E73",
+    "type-number": "#56B4E9",
+    "type-date": "#E69F00",
+    "type-bit": "#F0E442",
+    "type-blob": "#CC79A7",
+    "type-array": "#999933",
+    "type-enum": "#D55E00",
+    "type-unknown": "#999999",
+    "size-chart-fill": "#56B4E9",
+    "size-chart-track": "#ffffff"
+  },
+  "accent": {
+    "default": "#E69F00",
+    "grape-fruit": "#CC6677",
+    "rose": "#D55E00",
+    "fire": "#DDCC77",
+    "sunflower": "#F0E442",
+    "moss": "#999933",
+    "grass": "#117733",
+    "emerald": "#009E73",
+    "mint": "#44AA99",
+    "aqua": "#88CCEE",
+    "royal-lblue": "#332288",
+    "blue-jeans": "#0072B2",
+    "stone": "#56B4E9",
+    "lavander": "#AA4499",
+    "pink-rose": "#CC79A7",
+    "smoke": "#BBBBBB",
+    "slate": "#882255"
+  }
+}
